@@ -1,0 +1,10 @@
+star,vs,only_final,only_ref,n,p,p_holm
+kepler17,class: rc 2-way fc=1,27,0,60,1.4901161193847656e-08,1.043081283569336e-07
+kepler17,biweight 0.5 d (rule of thumb),31,0,60,9.313225746154785e-10,7.450580596923828e-09
+kepler17,biweight 0.2 d (tuned),16,0,60,3.0517578125e-05,0.000152587890625
+kepler63,class: rc 2-way fc=1,38,0,60,7.275957614183426e-12,6.548361852765083e-11
+kepler63,biweight 0.5 d (rule of thumb),20,0,60,1.9073486328125e-06,1.1444091796875e-05
+kepler63,biweight 0.2 d (tuned),4,0,60,0.125,0.5
+hatp7,class: rc 2-way fc=1,0,0,60,1.0,1.0
+hatp7,biweight 0.5 d (rule of thumb),0,1,60,1.0,1.0
+hatp7,biweight 0.2 d (tuned),3,2,60,1.0,1.0

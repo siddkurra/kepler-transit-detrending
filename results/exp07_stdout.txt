@@ -1,0 +1,23 @@
+    star                                        name  null_max  thr  recall  recall_lo  recall_hi  r150  r300  r600
+kepler17       butter_2way fc=2.0 order=2 search=bls      7.25 7.25   0.875       0.69      0.957   0.5     1     1
+kepler17 butter_2way fc=2.0 order=2 search=mes_white      6.81    7   0.875       0.69      0.957   0.5     1     1
+kepler17       butter_2way fc=2.0 order=2 search=mes      7.33 7.33   0.708      0.508      0.851     0 0.833     1
+kepler17       butter_2way fc=2.0 order=2 search=tls      19.3 19.3   0.833      0.641      0.933 0.333     1     1
+kepler63       butter_2way fc=2.0 order=2 search=bls      6.99    7       1      0.862          1     1     1     1
+kepler63 butter_2way fc=2.0 order=2 search=mes_white      7.69 7.69       1      0.862          1     1     1     1
+kepler63       butter_2way fc=2.0 order=2 search=mes      15.3 15.3   0.875       0.69      0.957   0.5     1     1
+kepler63       butter_2way fc=2.0 order=2 search=tls      18.3 18.3       1      0.862          1     1     1     1
+   hatp7       butter_2way fc=2.0 order=2 search=bls      8.85 8.85   0.958      0.798      0.993 0.833     1     1
+   hatp7 butter_2way fc=2.0 order=2 search=mes_white      8.29 8.29   0.958      0.798      0.993 0.833     1     1
+   hatp7       butter_2way fc=2.0 order=2 search=mes      9.83 9.83       1      0.862          1     1     1     1
+   hatp7       butter_2way fc=2.0 order=2 search=tls      19.8 19.8   0.958      0.798      0.993 0.833     1     1
+228 s
+kepler17  mes_white  vs bls: only mes_white 0, only bls 0, p=1.000
+kepler17  mes        vs bls: only mes 0, only bls 4, p=0.125
+kepler17  tls        vs bls: only tls 0, only bls 1, p=1.000
+kepler63  mes_white  vs bls: only mes_white 0, only bls 0, p=1.000
+kepler63  mes        vs bls: only mes 0, only bls 3, p=0.250
+kepler63  tls        vs bls: only tls 0, only bls 0, p=1.000
+hatp7     mes_white  vs bls: only mes_white 0, only bls 0, p=1.000
+hatp7     mes        vs bls: only mes 1, only bls 0, p=1.000
+hatp7     tls        vs bls: only tls 0, only bls 0, p=1.000

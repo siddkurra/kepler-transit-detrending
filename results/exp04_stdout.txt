@@ -1,0 +1,43 @@
+edge rms / interior rms (1 = no edge penalty)
+    star      filter  fc  nopad   pad
+kepler17     rc_2way 0.3   1.36  1.72
+kepler17     rc_2way   1    1.5   1.7
+kepler17     rc_2way   3  0.946  0.95
+kepler17 butter_2way 0.3   3.53   3.6
+kepler17 butter_2way   1   1.15  1.16
+kepler17 butter_2way   3   0.85 0.827
+kepler17      butter 0.3   1.28   1.6
+kepler17      butter   1  0.876  1.04
+kepler17      butter   3  0.884 0.984
+kepler63     rc_2way 0.3  0.652 0.659
+kepler63     rc_2way   1   1.11  1.03
+kepler63     rc_2way   3   1.29  1.14
+kepler63 butter_2way 0.3  0.808 0.949
+kepler63 butter_2way   1   1.54   1.5
+kepler63 butter_2way   3   1.12  1.09
+kepler63      butter 0.3  0.984   1.1
+kepler63      butter   1    1.4 0.961
+kepler63      butter   3   1.66  1.43
+   hatp7     rc_2way 0.3   2.39  3.33
+   hatp7     rc_2way   1   1.03  1.07
+   hatp7     rc_2way   3  0.977 0.981
+   hatp7 butter_2way 0.3   4.12  4.24
+   hatp7 butter_2way   1  0.886 0.912
+   hatp7 butter_2way   3  0.961 0.964
+   hatp7      butter 0.3   1.17  1.29
+   hatp7      butter   1   1.04  1.32
+   hatp7      butter   3   1.05  1.05
+    star                                 name  cdpp     edge  null_max  thr  recall  recall_lo  recall_hi  r150  r300
+kepler17 butter_2way fc=0.5 order=2 pad=False   388 1.73e+03      5.15    7   0.417      0.245      0.612     0     0
+kepler17  butter_2way fc=0.5 order=2 pad=True   383 1.79e+03      5.54    7   0.458      0.279      0.649     0 0.167
+kepler17 butter_2way fc=3.0 order=2 pad=False   148      399      8.13 8.13   0.875       0.69      0.957   0.5     1
+kepler17  butter_2way fc=3.0 order=2 pad=True   148      388      8.13 8.13   0.875       0.69      0.957   0.5     1
+kepler63 butter_2way fc=0.5 order=2 pad=False   376      421      5.31    7   0.375      0.212      0.573     0     0
+kepler63  butter_2way fc=0.5 order=2 pad=True   387      521      5.39    7   0.375      0.212      0.573     0     0
+kepler63 butter_2way fc=3.0 order=2 pad=False    20     69.9      7.91 7.91       1      0.862          1     1     1
+kepler63  butter_2way fc=3.0 order=2 pad=True    20     68.3      7.91 7.91       1      0.862          1     1     1
+   hatp7 butter_2way fc=0.5 order=2 pad=False   306      383      5.66    7   0.917      0.742      0.977 0.667     1
+   hatp7  butter_2way fc=0.5 order=2 pad=True   302      349      5.61    7   0.917      0.742      0.977 0.667     1
+   hatp7 butter_2way fc=3.0 order=2 pad=False  17.2     73.3       7.7  7.7   0.958      0.798      0.993 0.833     1
+   hatp7  butter_2way fc=3.0 order=2 pad=True  17.2     73.5      7.71 7.71   0.958      0.798      0.993 0.833     1
+115 s

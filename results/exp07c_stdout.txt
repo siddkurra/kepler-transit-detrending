@@ -1,0 +1,10 @@
+    star            name  null_max  thr  recall  recall_lo  recall_hi  r150  r300  r600
+kepler17 none search=mes      7.35 7.35  0.0417    0.00739      0.202     0     0     0
+kepler17 none search=bls      6.91    7  0.0417    0.00739      0.202     0 0.167     0
+kepler63 none search=mes      8.66 8.66    0.25       0.12      0.449     0     0 0.167
+kepler63 none search=bls      4.29    7       0          0      0.138     0     0     0
+   hatp7 none search=mes      7.48 7.48       1      0.862          1     1     1     1
+   hatp7 none search=bls      4.96    7   0.417      0.245      0.612     0     0 0.667
+kepler17  whiten-only mes vs butter+bls: only whiten 0, only butter 0, p=1.0000
+kepler63  whiten-only mes vs butter+bls: only whiten 0, only butter 0, p=1.0000
+hatp7     whiten-only mes vs butter+bls: only whiten 0, only butter 0, p=1.0000

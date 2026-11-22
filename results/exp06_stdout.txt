@@ -1,0 +1,23 @@
+    star                            name  cdpp     kept  null_max  thr  recall  recall_lo  recall_hi  r150  r300  r600
+kepler17      butter_2way fc=1.5 order=2   275    0.754      6.55    7   0.875       0.69      0.957   0.5     1     1
+kepler17      butter_2way fc=2.0 order=2   219    0.676      7.25 7.25   0.875       0.69      0.957   0.5     1     1
+kepler17      butter_2way fc=3.0 order=2   148    0.538      8.13 8.13   0.875       0.69      0.957   0.5     1     1
+kepler17 butter_2way fc=auto:snr order=2   148    0.538      6.55    7   0.875       0.69      0.957   0.5     1     1
+kepler17 butter_2way fc=auto:acf order=2   103     0.42      8.62 8.62   0.875       0.69      0.957   0.5     1     1
+kepler63      butter_2way fc=1.5 order=2    41    0.675      7.04 7.04       1      0.862          1     1     1     1
+kepler63      butter_2way fc=2.0 order=2  29.8    0.596      6.99    7       1      0.862          1     1     1     1
+kepler63      butter_2way fc=3.0 order=2    20    0.441      7.91 7.91       1      0.862          1     1     1     1
+kepler63 butter_2way fc=auto:snr order=2  29.8    0.596      7.91 7.91       1      0.862          1     1     1     1
+kepler63 butter_2way fc=auto:acf order=2  11.8    0.202      8.39 8.39   0.917      0.742      0.977 0.667     1     1
+   hatp7      butter_2way fc=1.5 order=2  59.7    0.571      8.81 8.81   0.917      0.742      0.977 0.667     1     1
+   hatp7      butter_2way fc=2.0 order=2  35.6    0.457      8.85 8.85   0.958      0.798      0.993 0.833     1     1
+   hatp7      butter_2way fc=3.0 order=2  17.2    0.276       7.7  7.7   0.958      0.798      0.993 0.833     1     1
+   hatp7 butter_2way fc=auto:snr order=2  17.2    0.276      8.81 8.81   0.917      0.742      0.977 0.667     1     1
+   hatp7 butter_2way fc=auto:acf order=2  5.82 -0.00677      8.05 8.05       1      0.862          1     1     1     1
+158 s
+kepler17  auto:snr vs butter_2way fc=3.0 order=2       only snr 0  only other 0  p=1.000
+kepler17  auto:snr vs butter_2way fc=auto:acf order=2  only snr 0  only other 0  p=1.000
+kepler63  auto:snr vs butter_2way fc=3.0 order=2       only snr 0  only other 0  p=1.000
+kepler63  auto:snr vs butter_2way fc=auto:acf order=2  only snr 2  only other 0  p=0.500
+hatp7     auto:snr vs butter_2way fc=3.0 order=2       only snr 0  only other 1  p=1.000
+hatp7     auto:snr vs butter_2way fc=auto:acf order=2  only snr 0  only other 2  p=0.500
